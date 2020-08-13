@@ -59,6 +59,15 @@ p, label, input, li, button {
         font-size: 2rem;
     }
 }
+@media (max-width: 573px) {
+    h1 {
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+    .h1 {
+        font-size: 6rem;
+    }
+}
 
 
 .card-header {
@@ -147,6 +156,11 @@ section #freeText h2 {
     }
     section #freeText {
         margin-top: -70px;
+    }
+}
+@media (max-width: 380px) {
+    section #freeText {
+        margin-top: -100px;
     }
 }
 
