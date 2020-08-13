@@ -29,19 +29,25 @@ p, label, input, li, button {
 .h2 {font-size: 3.5rem; font-weight: 700;}
 .btn {font-size: 2.4rem; font-weight: 600; padding: 1.5rem 2.5rem; border-radius: 1rem;}
 
-@media (min-width: 1650px) {
+@media (min-width: 1651px) {
     .container {
         max-width: 1650px;
         width: 100%;
     }
 }
+@media (max-width: 1650px) {
+    h1 {
+        line-height: 8rem;
+    }
+
+}
 @media (max-width: 992px) {
     h1 {
-        font-size: 5rem;
-        line-height: normal;
+        font-size: 7rem;
+        line-height: 6rem;
     }
     .h1 {
-        font-size: 5rem;
+        font-size: 7rem;
     }
     h2 {
         font-size: 3rem;
@@ -59,7 +65,7 @@ p, label, input, li, button {
 }
 
 .my-6 {
-    margin: 5rem auto;
+    margin: 3rem auto;
 }
 
 .pink {
@@ -75,13 +81,15 @@ p, label, input, li, button {
 
 
 main {
-    height: 75vh;
+    min-height: 70vh;
+    height: 100%;
 }
 main #heroBtn {
     background-color: #ED4958;
     color: white;
 
 }
+
 
 section#free {
     position: relative;
@@ -107,6 +115,12 @@ section #freeText h2 {
     color: #707070;
 }
 
+
+@media screen and (max-width: 1650px) {
+    section #freeText {
+        margin-top: -60px;
+    }
+}
 @media screen and (max-width: 1200px) {
     section #freeText {
         width: 50vw;
@@ -123,7 +137,6 @@ section #freeText h2 {
     }
     section #freeText {
         width: 75vw;
-        margin-top: -60px;
         margin-left: -37.5vw;
     }
 }
@@ -141,7 +154,7 @@ iframe {
 }
 
 #contact {
-    margin-top: 20rem;
+    margin: 10rem auto;
 }
 #contact div.row {
     margin-top: 5rem;
