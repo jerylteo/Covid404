@@ -60,6 +60,7 @@ p, label, input, li, button {
     }
 }
 
+
 .card-header {
     background-color: transparent;
 }
@@ -138,6 +139,14 @@ section #freeText h2 {
     section #freeText {
         width: 75vw;
         margin-left: -37.5vw;
+    }
+}
+@media (max-width: 573px) {
+    section #freeBack {
+        height: 25rem;
+    }
+    section #freeText {
+        margin-top: -70px;
     }
 }
 
