@@ -28,6 +28,9 @@ p, label, input, li, button {
 .h1 {font-size: 8rem; font-weight: 800;}
 .h2 {font-size: 3.5rem; font-weight: 700;}
 .btn {font-size: 2.4rem; font-weight: 600; padding: 1.5rem 2.5rem; border-radius: 1rem;}
+#logo {
+    font-weight: 800;
+}
 
 @media (min-width: 1651px) {
     .container {
@@ -169,8 +172,9 @@ section#system, section#team {
 }
 
 .shadow {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 .4rem .8rem rgba(0, 0, 0, 0.16) !important;
 }
+
 iframe {
     width: 100%;
     border: none;
@@ -228,4 +232,22 @@ footer .footerRight a {
 footer .footerRight a.pink {
     color: #ED4958;
     background-color: white;
+}
+
+.undraw {
+    height: 300px;
+}
+.undraw .img-fluid {
+    height: 100% !important;
+}
+#videos div.row {
+    border-radius: 1rem;
+    background-color: #FAFAFA;
+}
+
+div.embed-responsive, iframe {
+    border-radius: 1rem;
+}
+.card-header {
+    border-bottom: none;
 }
