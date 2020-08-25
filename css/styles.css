@@ -71,6 +71,11 @@ p, label, input, li, button {
         font-size: 6rem;
     }
 }
+@media (max-width: 380px) {
+    h1, .h1 {
+        font-size: 5rem;
+    }
+}
 
 
 .card-header {
@@ -110,9 +115,8 @@ section#free {
 section #freeBack {
     height: 20rem;
     background-color: rgba(237, 73, 88, 0.1);
-    margin-left: 5vw;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    margin: 0 5vw;
+    border-radius: 1rem;
     text-align: center;
 }
 section #freeText {
@@ -144,10 +148,6 @@ section #freeText h2 {
     section#free {
         margin-top: 10rem !important;
     }
-    section #freeBack {
-        margin-left: 0;
-        border: 0;
-    }
     section #freeText {
         width: 75vw;
         margin-left: -37.5vw;
@@ -164,6 +164,12 @@ section #freeText h2 {
 @media (max-width: 380px) {
     section #freeText {
         margin-top: -100px;
+    }
+    section #freeText h2 {
+        margin-bottom: 1rem;
+    }
+    section #freeText h2, section #freeText p {
+        text-align: left !important;
     }
 }
 
@@ -240,6 +246,18 @@ footer .footerRight a.pink {
 .undraw .img-fluid {
     height: 100% !important;
 }
+
+@media screen and (max-width: 573px) {
+    .undraw {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .undraw {
+        height: 150px;
+    }
+}
+
 #videos div.row {
     border-radius: 1rem;
     background-color: #FAFAFA;
